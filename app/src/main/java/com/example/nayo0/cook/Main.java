@@ -18,7 +18,7 @@ public class Main extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
 
-        ln = (LinearLayout) findViewById(R.id.layout);
+        /*ln = (LinearLayout) findViewById(R.id.layout);
 
        /* ImageButton ib = (ImageButton) findViewById(R.id.pasta);
         ib.setImageResource(R.drawable.pasta);*/
