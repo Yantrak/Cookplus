@@ -3,39 +3,39 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
-    <!--<ScrollView-->
-    <!--android:layout_width="wrap_content"-->
-    <!--android:layout_height="wrap_content">-->
-
-    <TableLayout
-        android:id="@+id/tableLayout1"
-        android:layout_width="match_parent"
+    <ScrollView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content">
 
-        <TableRow
-            android:id="@+id/tableRow14"
-            android:layout_width="wrap_content"
+        <TableLayout
+            android:id="@+id/tableLayout1"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-
-            <ImageView
-                android:id="@+id/imageview"
+            <TableRow
+                android:id="@+id/tableRow14"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
-                <!--android:src="@drawable/faces" -->
+                android:layout_height="wrap_content">
 
-            <ImageButton
-                android:id="@+id/imagebutton1"
-                android:layout_width="80dp"
-                android:layout_height="wrap_content"/>
-                <!--android:src="@drawable/darkness" -->
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text=""
-                android:textSize="50px"/>
-        </TableRow>
-    </TableLayout>
-    <!--</ScrollView>-->
+                <ImageView
+                    android:id="@+id/imageview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                    <!--android:src="@drawable/faces" -->
+
+                <ImageButton
+                    android:id="@+id/imagebutton1"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"/>
+                    <!--android:src="@drawable/darkness" -->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="50px"/>
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
 </LinearLayout>

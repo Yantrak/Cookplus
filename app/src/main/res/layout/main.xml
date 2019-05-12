@@ -1,35 +1,132 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+    android:id="@+id/layout" android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
-    <!--<ScrollView-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content">-->
+
+   <!-- <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">-->
 
 
-            <Button
-                android:id="@+id/boton1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAlignment="center"
-                android:onClick="cmdBOnclick"
-                android:text="Registro"/>
+                <Button
+                    android:id="@+id/boton1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:onClick="cmdBOnclick"
+                    android:text="Registro"/>
 
-            <ListView
-                android:id="@+id/lista1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+     <!--<TableLayout
+         android:id="@+id/tableLayout1"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
 
-            </ListView>
+      <TableRow
+          android:id="@+id/tableRow14"
+          android:layout_width="wrap_content"
+          android:layout_height="174dp"
+          android:orientation="vertical">
 
-            <Button
-                android:id="@+id/boton2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAlignment="center"
-                android:onClick="cmdBOnclick"
-                android:text="Crea tus recetas"/>
-    <!--</ScrollView>-->
+       <Button
+
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Pasta"
+           android:textAlignment="center"
+           android:textColor="@android:color/black"
+           android:textSize="30sp"
+           android:textStyle="bold" />
+
+
+       <ImageButton
+           android:id="@+id/pasta"
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:labelFor="@+id/pasta"
+           android:onClick="cmdBOnclick3"
+           android:src="@drawable/pasta" />
+
+
+      </TableRow>
+     </TableLayout>-->
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:text="Pasta"/>
+        <ImageButton
+            android:id="@+id/pasta2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/pasta"
+            android:labelFor="@+id/pasta"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:text="Carne"/>
+
+        <ImageButton
+            android:id="@+id/pasta3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/carne"
+            android:labelFor="@+id/pasta"/>
+
+       <!-- <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+
+            android:text="Pasta"/>
+        <ImageButton
+            android:id="@+id/pasta4"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/pasta"
+            android:labelFor="@+id/pasta"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:text="Pasta"/>
+        <ImageButton
+            android:id="@+id/pasta5"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/pasta"
+            android:labelFor="@+id/pasta"/>-->
+
+                <Button
+                    android:id="@+id/boton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:onClick="cmdBOnclick2"
+                    android:text="Crea tus recetas"/>
+
+<!--
+    </ScrollView>
+-->
+
 
 </LinearLayout>
